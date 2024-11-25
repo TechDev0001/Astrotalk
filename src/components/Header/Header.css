@@ -42,7 +42,7 @@ nav,
 }
 
 .logo {
-  font-family: var(--title-font);
+  /* font-family: var(--title-font); */
   font-size: var(--medium-size);
   padding-left: var(--space-10);
   color: var(--primary-foreground);

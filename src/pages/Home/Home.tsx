@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <div className="home">
-      <section className="home__first-section">
+      {/* <section className="home__first-section">
         <div className="home__info">
           <h1 className="home__logo">lunar☾</h1>
           <h2 className="home__heading">Astrology in your pocket.</h2>
@@ -47,7 +47,7 @@ export default function Home() {
           className="home__img--first-section invert"
           alt="Zodiac Wheel"
         ></img>
-      </section>
+      </section> */}
 
       <section className="home__second-section">
         <h2 className="home__heading">What can you find on Lunar?</h2>

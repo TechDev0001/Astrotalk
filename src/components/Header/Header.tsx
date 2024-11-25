@@ -30,7 +30,7 @@ export default function Header() {
       <nav className={'nav'}>
         <div className="nav__options">
           <NavLink className="logo" to="/">
-            lunar
+            Rama
           </NavLink>
           {/* <ThemeToggle /> */}
           <div className="menu" onClick={closeMenu}>
@@ -46,7 +46,7 @@ export default function Header() {
               className={location.pathname === '/' ? 'active' : 'nav__link'}
               onClick={closeMenu}
             >
-              Home
+              Free Kundli
             </NavLink>
           </li>
           <li className="nav__item">
@@ -57,7 +57,7 @@ export default function Header() {
               }
               onClick={closeMenu}
             >
-              About
+              Kundli Matching
             </NavLink>
           </li>
           <li className="nav__item">
@@ -68,7 +68,7 @@ export default function Header() {
               }
               onClick={closeMenu}
             >
-              Zodiac Signs
+              Horoscopes
             </NavLink>
           </li>
           <li className="nav__item">
@@ -79,7 +79,7 @@ export default function Header() {
               }
               onClick={closeMenu}
             >
-              Tarots
+              Chat with Astrologer
             </NavLink>
           </li>
           <li className="nav__item">
@@ -90,9 +90,57 @@ export default function Header() {
               }
               onClick={closeMenu}
             >
-              Numerology
+              Talk to Astrologer
             </NavLink>
           </li>
+          <li className="nav__item">
+            <NavLink
+              to="/numerology"
+              className={
+                location.pathname === '/numerology' ? 'active' : 'nav__link'
+              }
+              onClick={closeMenu}
+            >
+              Book a Pooja
+            </NavLink>
+            </li>
+            <li className="nav__item">
+            <NavLink
+              to="/numerology"
+              className={
+                location.pathname === '/numerology' ? 'active' : 'nav__link'
+              }
+              onClick={closeMenu}
+            >
+              Astromall
+            </NavLink>
+            </li>
+
+            <li className="nav__item">
+            <NavLink
+              to="/numerology"
+              className={
+                location.pathname === '/numerology' ? 'active' : 'nav__link'
+              }
+              onClick={closeMenu}
+            >
+              Astrotalk Store
+            </NavLink>
+
+
+            </li>
+
+            <li className="nav__item">
+            <NavLink
+              to="/numerology"
+              className={
+                location.pathname === '/numerology' ? 'active' : 'nav__link'
+              }
+              onClick={closeMenu}
+            >
+              Blogs
+            </NavLink>
+            </li>
           <li>
             <ThemeToggle />
           </li>
